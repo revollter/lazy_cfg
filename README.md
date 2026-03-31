@@ -19,8 +19,15 @@ cp ~/.config/nvim/lua/config/sync_targets.lua.dist ~/.config/nvim/lua/config/syn
 # edit sync_targets.lua with your own paths
 ```
 
-To disable sync without removing the targets file, set in `options.lua` or at runtime:
+To disable sync without removing the targets file, set in `options.lua`:
 
 ```lua
 vim.g.sync_enabled = false
+```
+
+Or toggle at runtime from within Neovim:
+
+```vim
+:lua vim.g.sync_enabled = false
+:lua vim.g.sync_enabled = true
 ```
