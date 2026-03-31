@@ -1,0 +1,8 @@
+-- Copy this file to sync_targets.lua and fill in your own paths.
+-- Maps local project directories to rsync-style remote destinations.
+-- Format: ["/local/path"] = "remote_host:/remote/path"
+
+return {
+  ["/home/user/Workspace/my-project"] = "myserver:/var/www/my-project",
+  ["/home/user/Workspace/another-project"] = "user@host:/path/to/deploy",
+}

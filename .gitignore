@@ -1,0 +1,43 @@
+# Lazy (plugins)
+lazy/
+
+# Mason (LSP, DAP, linters, formatters)
+mason/
+
+# Cache
+.cache/
+cache/
+tmp/
+logs/
+log/
+
+# Sessions
+session/
+sessions/
+
+# Swap / backup files
+*.swp
+*.swo
+*~
+*.bak
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Node (some plugins use it)
+node_modules/
+
+# LSP binaries / dynamic libs
+*.so
+*.dll
+*.dylib
+
+# Treesitter compiled parsers
+parser/
+
+# Local config (optional - if you ever create it)
+.local.lua
+
+# Machine-specific sync targets
+lua/config/sync_targets.lua
