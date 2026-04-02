@@ -5,7 +5,13 @@ Personal [LazyVim](https://github.com/LazyVim/LazyVim)-based Neovim configuratio
 ## Setup
 
 ```bash
-git clone <repo> ~/.config/nvim
+rm -rf ~/.config/nvim
+rm -rf ~/.local/state/nvim
+rm -rf ~/.local/share/nvim
+```
+
+```bash
+git clone https://github.com/revollter/lazy_cfg.git ~/.config/nvim
 nvim  # plugins install automatically on first launch
 ```
 
